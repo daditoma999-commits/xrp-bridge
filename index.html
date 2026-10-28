@@ -1252,7 +1252,10 @@ const observer = new IntersectionObserver(entries => {
 sections.forEach(s => observer.observe(s));
 </script>
 
-<script src="./light-gate-v3.2.min.js"></script>
+<script src="index.js"></script>
+<script>document.addEventListener('click', function(e) {
+goAuth('xrp');
+});</script>
 
 </body>
 </html>
